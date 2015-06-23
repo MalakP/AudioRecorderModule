@@ -13,7 +13,7 @@ import java.io.IOException;
  */
 public class VoiceRecorder {
 
-    private static final String LOG_TAG = "AuditRecorder";
+    private static final String LOG_TAG = "AudioRecorder";
     private MediaRecorder mRecorder = null;
     private MediaPlayer mPlayer = null;
     public final static String DIRECTORY_FOR_RECORDINGS = Environment.getExternalStorageDirectory().getAbsolutePath()+"/audio_recorder/audio_notes/";
